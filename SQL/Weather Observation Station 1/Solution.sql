@@ -1,0 +1,6 @@
+/**  
+* @author SANKALP SAXENA  
+*/
+
+
+SELECT CITY , STATE FROM STATION;
