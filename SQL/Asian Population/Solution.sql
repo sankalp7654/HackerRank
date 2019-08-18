@@ -2,9 +2,8 @@
 * @author SANKALP SAXENA  
 */
 
-
-
-SELECT SUM(CITY.POPULATION) FROM CITY
-INNER JOIN COUNTRY
-ON CITY.CountryCode = COUNTRY.Code 
-WHERE COUNTRY.CONTINENT = 'ASIA';
+select sum(city.population)
+from city
+join country
+on city.countrycode = country.code
+where continent = 'Asia';
