@@ -1,0 +1,10 @@
+/**  
+* @author SANKALP SAXENA  
+*/
+
+/*
+Enter your query here.
+*/
+
+
+SELECT S.NAME FROM STUDENTS S WHERE S.MARKS > 75 ORDER BY SUBSTRING(S.NAME, LENGTH(S.NAME)-2, 3), S.ID;
