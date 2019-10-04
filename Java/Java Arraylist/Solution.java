@@ -35,7 +35,7 @@ public class Solution {
    
         int q = scanner.nextInt();
         
-        int [][] qarr = new int [q][2];
+        int qarr[][] = new int [q][2];
         
         for(int i = 0; i < q; i++) {
             for(int j = 0; j < 2; j++) {
